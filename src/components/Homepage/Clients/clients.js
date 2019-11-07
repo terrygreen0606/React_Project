@@ -8,44 +8,44 @@ export class clients extends Component {
                     <div className="row wow fadeInLeft">
                         <div id="client-carousel" className="col-sm-12 owl-carousel owl-theme text-center client-carousel">
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client1.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client2.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client3.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client4.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client5.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client6.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client7.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                             <figure className="m-0 item client_logo">
-                                <a href="#">
+                                <button href="#">
                                     <img src="./images/clients/client8.png" alt="client" />
-                                </a>
+                                </button>
                             </figure>
                         </div>
                     </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Home from './Home/home'
 import Service from './Service/service'
 import Portfolio from './Portfolio/portfolio'
 import Tscounter from './TsCounter/tscounter'
@@ -15,7 +14,6 @@ export class homepage extends Component {
     render() {
         return (
             <div>
-                <Home />
                 <Service />
                 <Portfolio />
                 <Tscounter />

@@ -89,7 +89,7 @@ Slider
       margin-top: 10px !important;
    }
 
-   .cd-slider-nav a i {
+   .cd-slider-nav button i {
      font-size: 20px !important;
    }
 
@@ -110,9 +110,6 @@ Single slide style
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.cd-hero-slider li:first-of-type {
-  background-color: #2c343b;
 }
 
 /*
@@ -429,7 +426,7 @@ Slider navigation
   text-align: center;
   height: 55px;
 }
-.cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav a {
+.cd-slider-nav nav, .cd-slider-nav ul, .cd-slider-nav li, .cd-slider-nav button{
   height: 100%;
 }
 .cd-slider-nav nav {
@@ -484,25 +481,26 @@ Slider navigation
   display: inline-block;
   width: 60px;
   float: left;
+  margin: 10px;
 }
-.cd-slider-nav li.selected a {
+.cd-slider-nav li.selected button{
   color: #fff;
 }
-.no-touch .cd-slider-nav li.selected a:hover {
+.no-touch .cd-slider-nav li.selected button:hover {
   background-color: transparent;
 }
 
 
-.cd-slider-nav ul li a{
+.cd-slider-nav ul li button{
    background: rgba(0,0,0,.3);
-   margin-right: 5px;
+   width: 100%;
 }
 
-.cd-slider-nav ul li.selected a{
+.cd-slider-nav ul li.selected button{
     background: rgba(0,0,0,.8);
 }
 
-.cd-slider-nav a {
+.cd-slider-nav button{
   display: block;
   position: relative;
   padding-top: 35px;
@@ -514,46 +512,46 @@ Slider navigation
   transition: background-color 0.2s;
 }
 
-.cd-slider-nav a{
+.cd-slider-nav button{
    padding-top: 10px;
 }
 
-.cd-slider-nav a i{
+.cd-slider-nav button i{
   font-size: 32px;
   display: block;
 }
 
-.no-touch .cd-slider-nav a:hover {
+.no-touch .cd-slider-nav button:hover {
   background-color: rgba(0, 1, 1, 0.5);
 }
-.cd-slider-nav li:first-of-type a::before {
+.cd-slider-nav li:first-of-type button::before {
   background-position: 0 0;
 }
-.cd-slider-nav li.selected:first-of-type a::before {
+.cd-slider-nav li.selected:first-of-type button::before {
   background-position: 0 -24px;
 }
-.cd-slider-nav li:nth-of-type(2) a::before {
+.cd-slider-nav li:nth-of-type(2) button::before {
   background-position: -24px 0;
 }
-.cd-slider-nav li.selected:nth-of-type(2) a::before {
+.cd-slider-nav li.selected:nth-of-type(2) button::before {
   background-position: -24px -24px;
 }
-.cd-slider-nav li:nth-of-type(3) a::before {
+.cd-slider-nav li:nth-of-type(3) button::before {
   background-position: -48px 0;
 }
-.cd-slider-nav li.selected:nth-of-type(3) a::before {
+.cd-slider-nav li.selected:nth-of-type(3) button::before {
   background-position: -48px -24px;
 }
-.cd-slider-nav li:nth-of-type(4) a::before {
+.cd-slider-nav li:nth-of-type(4) button::before {
   background-position: -72px 0;
 }
-.cd-slider-nav li.selected:nth-of-type(4) a::before {
+.cd-slider-nav li.selected:nth-of-type(4) button::before {
   background-position: -72px -24px;
 }
-.cd-slider-nav li:nth-of-type(5) a::before {
+.cd-slider-nav li:nth-of-type(5) button::before {
   background-position: -96px 0;
 }
-.cd-slider-nav li.selected:nth-of-type(5) a::before {
+.cd-slider-nav li.selected:nth-of-type(5) button::before {
   background-position: -96px -24px;
 }
 @media only screen and (min-width: 768px) {
@@ -564,11 +562,11 @@ Slider navigation
   .cd-slider-nav li {
     width: 80px;
   }
-  .cd-slider-nav a {
+  .cd-slider-nav button{
     padding-top: 10px;
     text-transform: uppercase;
   }
-  .cd-slider-nav a::before {
+  .cd-slider-nav button::before {
     top: 18px;
   }
 }

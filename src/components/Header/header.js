@@ -8,7 +8,7 @@ export class header extends Component {
         
         return (
             <header id="header" className="fixed-top header" role="banner">
-                <a className="navbar-brand navbar-bg" href="index.html"><img className="img-fluid float-right" src="./images/logo.png" alt="logo" /></a>
+                <button className="navbar-brand navbar-bg"><img className="img-fluid float-right" src="./images/logo.png" alt="logo" /></button>
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-dark">
                         <button className="navbar-toggler ml-auto border-0 rounded-0 text-white" type="button" data-toggle="collapse"
@@ -22,17 +22,17 @@ export class header extends Component {
                                     <Link to='/'><button className='nav-link'>Home</button></Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" href='/'>
+                                    <button className="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
                                         Pages
-                                    </a>
+                                    </button>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="team.html">Our Team</a>
-                                        <a className="dropdown-item" href="about2.html">About Us - 2</a>
-                                        <a className="dropdown-item" href="service2.html">Services - 2</a>
-                                        <a className="dropdown-item" href="service-single.html">Services Single</a>
-                                        <a className="dropdown-item" href="pricing.html">Pricing Table</a>
-                                        <a className="dropdown-item" href="404.html">404 Page</a>
+                                        <button className="dropdown-item" href="team.html">Our Team</button>
+                                        <button className="dropdown-item" href="about2.html">About Us - 2</button>
+                                        <button className="dropdown-item" href="service2.html">Services - 2</button>
+                                        <button className="dropdown-item" href="service-single.html">Services Single</button>
+                                        <button className="dropdown-item" href="pricing.html">Pricing Table</button>
+                                        <button className="dropdown-item" href="404.html">404 Page</button>
                                     </div>
                                 </li>
                                 <li className="nav-item">
@@ -42,7 +42,7 @@ export class header extends Component {
                                     <Link to='/blogs'><button className="nav-link">Blogs</button></Link>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="nav-link">Contact</button>
+                                    <Link to='/contact'><button className="nav-link">Contact</button></Link>
                                 </li>
                                 <li className="nav-item">
                                     <button className="nav-link">About Us</button>

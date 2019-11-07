@@ -11,8 +11,8 @@ export class parallax extends Component {
                             <h2>Are You Ready to Buy This Template!</h2>
                             <h3>Just Click Button and Use Your Own</h3>
                             <p>
-                                <a href="#" className="btn btn-primary white">Purchase Now</a>
-                                <a href="#" className="btn btn-primary solid">Get In Touch</a>
+                                <button href="#" className="btn btn-primary white">Purchase Now</button>
+                                <button href="#" className="btn btn-primary solid">Get In Touch</button>
                             </p>
                         </div>
                     </div>

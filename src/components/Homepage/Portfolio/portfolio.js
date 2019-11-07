@@ -16,11 +16,11 @@ export class portfolio extends Component {
                         <div className="col-12">
                             <div className="isotope-nav" data-isotope-nav="isotope">
                                 <ul>
-                                    <li><a href="#" className="active" data-filter="*">All</a></li>
-                                    <li><a href="#" data-filter=".web-design">Web Design</a></li>
-                                    <li><a href="#" data-filter=".development">Development</a></li>
-                                    <li><a href="#" data-filter=".joomla">Joomla</a></li>
-                                    <li><a href="#" data-filter=".wordpress">Wordpress</a></li>
+                                    <li><button className="active" data-filter="*">All</button></li>
+                                    <li><button data-filter=".web-design">Web Design</button></li>
+                                    <li><button data-filter=".development">Development</button></li>
+                                    <li><button data-filter=".joomla">Joomla</button></li>
+                                    <li><button data-filter=".wordpress">Wordpress</button></li>
                                 </ul>
                             </div>
                         </div>
@@ -35,9 +35,9 @@ export class portfolio extends Component {
                                     <img src="./images/portfolio/portfolio1.jpg" alt="" />
                                     <figcaption>
                                         <h3>Startup Business</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg1.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg1.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -49,9 +49,9 @@ export class portfolio extends Component {
                                     <img src="images/portfolio/portfolio2.jpg" alt="" />
                                     <figcaption>
                                         <h3>Easy to Lanunch</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg2.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg2.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -63,9 +63,9 @@ export class portfolio extends Component {
                                     <img src="images/portfolio/portfolio3.jpg" alt="" />
                                     <figcaption>
                                         <h3>Your Business</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg3.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg3.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -77,9 +77,9 @@ export class portfolio extends Component {
                                     <img src="images/portfolio/portfolio4.jpg" alt="" />
                                     <figcaption>
                                         <h3>Prego Match</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg4.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg4.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -91,9 +91,9 @@ export class portfolio extends Component {
                                     <img src="./images/portfolio/portfolio5.jpg" alt="" />
                                     <figcaption>
                                         <h3>Fashion Brand</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg5.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg5.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -105,9 +105,9 @@ export class portfolio extends Component {
                                     <img src="./images/portfolio/portfolio6.jpg" alt="" />
                                     <figcaption>
                                         <h3>The Insidage</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg1.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg1.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -119,9 +119,9 @@ export class portfolio extends Component {
                                     <img src="./images/portfolio/portfolio7.jpg" alt="" />
                                     <figcaption>
                                         <h3>Light Carpet</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg2.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg2.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>
@@ -133,9 +133,9 @@ export class portfolio extends Component {
                                     <img src="./images/portfolio/portfolio8.jpg" alt="" />
                                     <figcaption>
                                         <h3>Amazing Keyboard</h3>
-                                        <a className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></a>
-                                        <a className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg3.jpg"><i
-                                                className="fa fa-search"></i></a>
+                                        <button className="link icon-pentagon" href="portfolio-item.html"><i className="fa fa-link"></i></button>
+                                        <button className="view icon-pentagon" data-rel="prettyPhoto" href="./images/portfolio/portfolio-bg3.jpg"><i
+                                                className="fa fa-search"></i></button>
                                     </figcaption>
                                 </figure>
                             </div>

@@ -155,12 +155,12 @@ h3 {
   overflow: hidden;
 }
 
-a:link,
-a:visited {
+ button:link,
+ button:visited {
   text-decoration: none;
 }
 
-a:hover {
+ button:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -170,7 +170,7 @@ button {
   border: none;
 }
 
-a.read-more {
+button.read-more {
   color: #323232;
 }
 
@@ -222,7 +222,7 @@ section {
   height: 20px;
 }
 
-a:focus {
+ button:focus {
   outline: 0;
 }
 
@@ -288,21 +288,6 @@ blockquote {
 /* Common styles
 ================================================== */
 /* Angle */
-.angle:before {
-  background: #fff;
-  content: "";
-  height: 75px;
-  top: -37px;
-  position: absolute;
-  width: 100%;
-  z-index: 2;
-  -webkit-transform: skew(0deg, 2deg);
-          transform: skew(0deg, 2deg);
-}
-
-.portfolio.angle:before {
-  background: #f5f5f5;
-}
 
 .portfolio.angle {
   padding-bottom: 120px;
@@ -440,7 +425,7 @@ blockquote {
   line-height: normal;
 }
 
-.post-title a {
+.post-title button {
   color: #323232;
 }
 
@@ -581,8 +566,8 @@ blockquote {
   box-shadow: none;
 }
 
-.portfolio-slider .flex-direction-nav a,
-.ts-flex-slider .flex-direction-nav a {
+.portfolio-slider .flex-direction-nav button,
+.ts-flex-slider .flex-direction-nav button {
   opacity: 0;
   background: #000;
   color: #fff !important;
@@ -591,12 +576,12 @@ blockquote {
   line-height: 40px;
 }
 
-.portfolio-slider .flex-direction-nav a:before {
+.portfolio-slider .flex-direction-nav  button:before {
   font-size: 32px;
 }
 
-.portfolio-slider .flex-direction-nav a:hover,
-.ts-flex-slider .flex-direction-nav a:hover {
+.portfolio-slider .flex-direction-nav  button:hover,
+.ts-flex-slider .flex-direction-nav  button:hover {
   color: #fff;
   opacity: 1;
 }
@@ -606,14 +591,14 @@ blockquote {
 }
 
 /*-- Pagination --*/
-.pagination li a {
+.pagination li button {
   border-radius: 0 !important;
   margin-right: 8px;
 }
 
-.pagination > .active > a,
-.pagination > .active > a:hover,
-.pagination > li > a:hover {
+.pagination > .active > button,
+.pagination > .active > button:hover,
+.pagination > li >  button:hover {
   color: #fff;
   border: 1px solid transparent;
 }
@@ -645,7 +630,8 @@ blockquote {
 
 @media (max-width: 991px) {
   .navbar-nav .nav-link {
-    padding: 10px !important;
+    padding: 5px !important;
+    margin-top: 15px;
   }
 }
 
@@ -1038,7 +1024,7 @@ blockquote {
   z-index: 3;
 }
 
-.ts-flex-slider .flex-direction-nav a {
+.ts-flex-slider .flex-direction-nav button {
   width: 55px;
   height: 60px;
   line-height: 60px;
@@ -1046,11 +1032,11 @@ blockquote {
   font-size: 32px;
 }
 
-.ts-flex-slider .flex-direction-nav a.flex-next {
+.ts-flex-slider .flex-direction-nav button.flex-next {
   border-radius: 3px;
 }
 
-.ts-flex-slider .flex-direction-nav a.flex-prev {
+.ts-flex-slider .flex-direction-nav button.flex-prev {
   border-radius: 3px;
 }
 
@@ -1145,7 +1131,7 @@ blockquote {
   margin-bottom: 0;
 }
 
-/* About us
+/* buttonbout us
 ================================================== */
 /* Landing Tab */
 .landing-tab .nav-link {
@@ -1168,7 +1154,7 @@ blockquote {
 }
 
 .landing-tab .nav-link::before {
-  position: absolute;
+  position: buttonbsolute;
   content: "";
   height: 100%;
   width: 5px;
@@ -1192,7 +1178,7 @@ blockquote {
   background: #f2f2f2;
   border-radius: 0;
   padding: 10px;
-  transition: all 300ms ease;
+  transition: buttonll 300ms ease;
 }
 
 .featured-tab .nav-link.active:hover {
@@ -1203,7 +1189,7 @@ blockquote {
   left: 100%;
   border: transparent solid;
   content: "";
-  position: absolute;
+  position: buttonbsolute;
   border-width: 25px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1246,22 +1232,22 @@ blockquote {
   margin-right: 10px;
 }
 
-.isotope-nav ul li a {
+.isotope-nav ul li button {
   color: #323232;
   padding: 5px 15px 8px;
   border: 1px solid #ddd;
   transition: all 0.3s;
 }
 
-.isotope-nav ul a.active,
-.isotope-nav ul a:hover {
+.isotope-nav ul button.active,
+.isotope-nav ul  button:hover {
   color: #fff;
   position: relative;
   border: 1px solid transparent;
 }
 
-.isotope-nav ul a.active:after,
-.isotope-nav ul a:hover:after {
+.isotope-nav ul button.active:after,
+.isotope-nav ul  button:hover:after {
   position: absolute;
   content: " ";
   width: auto;
@@ -1346,7 +1332,7 @@ figure.effect-oscar h3 {
   transform: translate3d(0, 100%, 0);
 }
 
-figure.effect-oscar a {
+figure.effect-oscar button {
   color: #fff;
   font-size: 18px;
   margin: 20px 5px 0;
@@ -1356,13 +1342,13 @@ figure.effect-oscar a {
   transition: all 0.35s;
 }
 
-figure.effect-oscar a.link i {
+figure.effect-oscar button.link i {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 figure.effect-oscar figcaption::before,
-figure.effect-oscar a {
+figure.effect-oscar button {
   opacity: 0;
   transition: all 0.35s, -webkit-transform 0.35s;
   transition: all 0.35s, transform 0.35s;
@@ -1378,7 +1364,7 @@ figure.effect-oscar:hover h3 {
 
 figure.effect-oscar:hover figcaption::before,
 figure.effect-oscar:hover h3,
-figure.effect-oscar:hover a {
+figure.effect-oscar:hover button {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -1407,7 +1393,7 @@ figure.effect-oscar:hover img {
   padding-bottom: 20px;
 }
 
-.portfolio-static-item figure.effect-oscar a {
+.portfolio-static-item figure.effect-oscar button {
   margin-top: 70px;
 }
 
@@ -1417,7 +1403,7 @@ figure.effect-oscar:hover img {
   line-height: normal;
 }
 
-.portfolio-static-desc a {
+.portfolio-static-desc button {
   color: #6A6A6A;
 }
 
@@ -1542,7 +1528,7 @@ figure.effect-oscar:hover img {
   color: #959595;
 }
 
-.team-social a {
+.team-social button {
   background: #d5d5d5;
   color: #fff;
   width: 28px;
@@ -1554,23 +1540,23 @@ figure.effect-oscar:hover img {
   transition: all 300ms ease;
 }
 
-.team-social a.fb:hover {
+.team-social button.fb:hover {
   background: #325c94;
 }
 
-.team-social a.twt:hover {
+.team-social button.twt:hover {
   background: #00abdc;
 }
 
-.team-social a.gplus:hover {
+.team-social button.gplus:hover {
   background: #dd4b39;
 }
 
-.team-social a.linkdin:hover {
+.team-social button.linkdin:hover {
   background: #007bb6;
 }
 
-.team-social a.dribble:hover {
+.team-social button.dribble:hover {
   background: #ea4c89;
 }
 
@@ -1667,7 +1653,7 @@ figure.effect-oscar:hover img {
   border-top: 0 !important;
 }
 
-.plan a.btn {
+.plan button.btn {
   color: #323232;
   background: #fff;
   margin-top: 25px;
@@ -1675,7 +1661,7 @@ figure.effect-oscar:hover img {
   padding: 8px 30px;
 }
 
-.plan a.btn:hover {
+.plan button.btn:hover {
   color: #fff;
 }
 
@@ -1803,7 +1789,7 @@ figure.effect-oscar:hover img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.post-img-overlay a {
+.post-img-overlay button {
   position: absolute;
   right: 0;
   color: #fff;
@@ -1813,7 +1799,7 @@ figure.effect-oscar:hover img {
   transition: all 0.35s;
 }
 
-.post-img-overlay a.link {
+.post-img-overlay button.link {
   right: 0;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -1822,7 +1808,7 @@ figure.effect-oscar:hover img {
   transform: translate3d(100%, 0, 0);
 }
 
-.post-img-overlay:hover a.link {
+.post-img-overlay:hover button.link {
   left: 0;
   right: auto;
   opacity: 1;
@@ -1830,7 +1816,7 @@ figure.effect-oscar:hover img {
   transform: translate3d(0, 0, 0);
 }
 
-.post-img-overlay a.view {
+.post-img-overlay button.view {
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   transition: transform 0.35s, -webkit-transform 0.35s;
@@ -1838,7 +1824,7 @@ figure.effect-oscar:hover img {
   transform: translate3d(0, -100%, 0);
 }
 
-.post-img-overlay:hover a.view {
+.post-img-overlay:hover button.view {
   bottom: 0;
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
@@ -1855,11 +1841,11 @@ figure.effect-oscar:hover img {
   font-weight: 700;
 }
 
-.recent-post .post-body h3 a {
+.recent-post .post-body h3 button {
   color: #323232;
 }
 
-.recent-post .post-body .post-meta a {
+.recent-post .post-body .post-meta button {
   font-weight: 400;
   font-size: 13px;
 }
@@ -1873,7 +1859,7 @@ figure.effect-oscar:hover img {
   padding-top: 10px;
 }
 
-.recent-post .post-excerpt a.read-more {
+.recent-post .post-excerpt button.read-more {
   padding: 6px 18px;
   border-width: 1px;
   font-size: 12px;
@@ -1896,7 +1882,7 @@ figure.effect-oscar:hover img {
   color: #fff;
 }
 
-.client-carousel .item a {
+.client-carousel .item button {
   margin-right: 20px;
   border: 1px solid #e7e7e7;
   border-radius: 3px;
@@ -1916,11 +1902,11 @@ figure.effect-oscar:hover img {
   color: #1dcaff;
 }
 
-.twitter-feed .tweet a {
+.twitter-feed .tweet button {
   color: #1dcaff;
 }
 
-.twitter-feed .tweet a:hover {
+.twitter-feed .tweet  button:hover {
   color: #000;
 }
 
@@ -2036,7 +2022,7 @@ figure.effect-oscar:hover img {
   border: 4px solid rgba(255, 255, 255, 0.5);
 }
 
-.footer-widget .latest-post-content h4 a {
+.footer-widget .latest-post-content h4 button {
   color: #fff;
 }
 
@@ -2050,7 +2036,7 @@ figure.effect-oscar:hover img {
 }
 
 .footer-widget .post-meta,
-.footer-widget .post-meta a {
+.footer-widget .post-meta button {
   color: #fff;
 }
 
@@ -2065,13 +2051,13 @@ figure.effect-oscar:hover img {
   display: inline-block;
 }
 
-.img-gallery a.thumb-holder {
+.img-gallery button.thumb-holder {
   overflow: hidden;
   position: relative;
 }
 
-.img-gallery a.thumb-holder img {
-  margin: 0 15px 15px 0;
+.img-gallery button.thumb-holder img {
+  margin: 5px 0 5px 0;
   display: inline-block;
   width: 95px;
   height: 85px;
@@ -2080,11 +2066,11 @@ figure.effect-oscar:hover img {
   backface-visibility: hidden;
 }
 
-.img-gallery a.thumb-holder:hover img {
+.img-gallery button.thumb-holder:hover img {
   opacity: 0.7;
 }
 
-.footer2 .img-gallery a.thumb-holder img {
+.footer2 .img-gallery button.thumb-holder img {
   width: 90px;
   height: 75px;
 }
@@ -2143,7 +2129,7 @@ ul.arrow li:before {
   margin-right: 10px;
 }
 
-.footer ul li a {
+.footer ul li button {
   color: #fff;
 }
 
@@ -2161,14 +2147,6 @@ ul.arrow li:before {
   max-width: 850px;
   margin: 30px auto 0;
   padding-top: 15px;
-}
-
-.copyright.angle:before {
-  background: #191919;
-  height: 50px;
-  top: -25px;
-  -webkit-transform: skew(0deg, -2deg);
-  transform: skew(0deg, -2deg);
 }
 
 .footer-social {
@@ -2244,7 +2222,7 @@ ul.arrow li:before {
   font-size: 16px;
 }
 
-.banner-title-content .breadcrumb a:hover {
+.banner-title-content .breadcrumb  button:hover {
   color: #ccc;
 }
 
@@ -2254,7 +2232,7 @@ ul.arrow li:before {
   min-height: 374px;
 }
 
-.about-message ul li a {
+.about-message ul li button {
   color: #6A6A6A;
 }
 
@@ -2285,13 +2263,13 @@ ul.arrow li:before {
 }
 
 /* Career */
-.accordion .card-header a {
+.accordion .card-header button {
   position: relative;
   padding-left: 30px;
   cursor: pointer;
 }
 
-.accordion .card-header a::before, .accordion .card-header a.collapsed::before {
+.accordion .card-header  button::before, .accordion .card-header button.collapsed::before {
   font-family: FontAwesome;
   position: absolute;
   z-index: 0;
@@ -2301,11 +2279,11 @@ ul.arrow li:before {
   text-align: center;
 }
 
-.accordion .card-header a::before {
+.accordion .card-header  button::before {
   content: "\f056";
 }
 
-.accordion .card-header a.collapsed::before {
+.accordion .card-header button.collapsed::before {
   content: "\f055";
 }
 
@@ -2414,7 +2392,7 @@ ul.arrow li:before {
   font-weight: 700;
 }
 
-.blog-date a {
+.blog-date button {
   color: #fff;
 }
 
@@ -2435,12 +2413,12 @@ ul.arrow li:before {
   padding-right: 10px;
 }
 
-.post-meta a {
+.post-meta button {
   color: #959595;
 }
 
-.post-meta-author a,
-.post-meta-cats a {
+.post-meta-author button,
+.post-meta-cats button {
   color: #323232;
 }
 
@@ -2463,7 +2441,7 @@ ul.arrow li:before {
   margin-top: 20px;
 }
 
-.author-url span a {
+.author-url span button {
   color: #959595;
 }
 
@@ -2486,7 +2464,7 @@ ul.arrow li:before {
   font-size: 18px;
 }
 
-.comments-counter a {
+.comments-counter button {
   color: #323232;
 }
 
@@ -2577,7 +2555,7 @@ ul.arrow li:before {
   margin-left: 10px;
 }
 
-.widget-tab .nav-tabs > li > a {
+.widget-tab .nav-tabs > li > button {
   background: #f2f2f2;
   color: #323232;
   font-size: 15px;
@@ -2589,7 +2567,7 @@ ul.arrow li:before {
   border-bottom: 0;
 }
 
-.widget-tab .nav-tabs > li.active > a {
+.widget-tab .nav-tabs > li.active > button {
   background: #fff;
   color: #323232;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2622,7 +2600,7 @@ ul.arrow li:before {
   margin-bottom: 5px;
 }
 
-.widget-tab h4.entry-title a {
+.widget-tab h4.entry-title button {
   color: #323232;
 }
 
@@ -2652,7 +2630,7 @@ ul.arrow li:before {
   padding-left: 10px;
 }
 
-.widget-categories ul.category-list li a {
+.widget-categories ul.category-list li button {
   color: #323232;
 }
 
@@ -2666,7 +2644,7 @@ ul.arrow li:before {
   margin: 6px;
 }
 
-.widget-tags ul > li a {
+.widget-tags ul > li button {
   background: #f2f2f2;
   color: #6A6A6A;
   display: block;
@@ -2676,7 +2654,7 @@ ul.arrow li:before {
   transition: all 0.3s ease 0s;
 }
 
-.widget-tags ul > li a:hover {
+.widget-tags ul > li  button:hover {
   color: #fff;
 }
 
@@ -2748,16 +2726,16 @@ ul.arrow li:before {
   width: auto;
 }
 
-.hero-buttons a.btn {
+.hero-buttons button.btn {
   color: #fff;
   padding: 15px 50px;
 }
 
-.hero-buttons a.btn.solid {
+.hero-buttons button.btn.solid {
   margin-left: 10px;
 }
 
-.hero-buttons a i {
+.hero-buttons button i {
   margin-left: 5px;
 }
 
@@ -2826,7 +2804,7 @@ iframe {
   padding: 5px;
 }
 
-.app-gallery figure.effect-oscar a {
+.app-gallery figure.effect-oscar button {
   margin: 125px 5px 0;
 }
 
@@ -2932,7 +2910,7 @@ iframe {
   border: 0 !important;
 }
 
-a.close-styler {
+button.close-styler {
   color: #fff !important;
   padding: 7px 20px !important;
   margin-right: 6px;
@@ -3083,10 +3061,10 @@ a.close-styler {
   .hero-title {
     font-size: 36px;
   }
-  .hero-buttons a.btn {
+  .hero-buttons button.btn {
     padding: 10px 20px;
   }
-  .app-gallery figure.effect-oscar a {
+  .app-gallery figure.effect-oscar button {
     margin-top: 105px;
   }
   /* Blog single */
@@ -3152,9 +3130,6 @@ a.close-styler {
   .about {
     padding-top: 40px;
   }
-  .about.angle:before {
-    position: relative;
-  }
   /* Service */
   .service-content {
     display: inline-block;
@@ -3164,7 +3139,7 @@ a.close-styler {
   .isotope-nav {
     margin: 0 auto 40px;
   }
-  .isotope-nav ul li a {
+  .isotope-nav ul li button {
     padding: 5px 10px;
     margin-bottom: 10px;
     display: inline-block;
@@ -3259,10 +3234,10 @@ a.close-styler {
   .hero-title {
     font-size: 36px;
   }
-  .hero-buttons a.btn {
+  .hero-buttons button.btn {
     padding: 10px 20px;
   }
-  .app-gallery figure.effect-oscar a {
+  .app-gallery figure.effect-oscar button {
     margin-top: 105px;
   }
   .hero-images img {

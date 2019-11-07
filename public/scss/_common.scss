@@ -315,7 +315,7 @@ blockquote {
 	line-height: normal;
 }
 
-.post-title a {
+.post-title button{
 	color: #323232;
 }
 
@@ -465,8 +465,8 @@ blockquote {
 	box-shadow: none;
 }
 
-.portfolio-slider .flex-direction-nav a,
-.ts-flex-slider .flex-direction-nav a {
+.portfolio-slider .flex-direction-nav button,
+.ts-flex-slider .flex-direction-nav button{
 	opacity: 0;
 	background: #000;
 	color: #fff !important;
@@ -475,12 +475,12 @@ blockquote {
 	line-height: 40px;
 }
 
-.portfolio-slider .flex-direction-nav a:before {
+.portfolio-slider .flex-direction-nav button:before {
 	font-size: 32px;
 }
 
-.portfolio-slider .flex-direction-nav a:hover,
-.ts-flex-slider .flex-direction-nav a:hover {
+.portfolio-slider .flex-direction-nav button:hover,
+.ts-flex-slider .flex-direction-nav button:hover {
 	color: #fff;
 	opacity: 1;
 }
@@ -491,7 +491,7 @@ blockquote {
 
 /*-- Pagination --*/
 
-.pagination li a {
+.pagination li button{
 	border-radius: 0 !important;
 	margin-right: 8px;
 }

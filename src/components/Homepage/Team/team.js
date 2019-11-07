@@ -25,11 +25,11 @@ export class team extends Component {
                                     <h3>Vosgi Varduhi</h3>
                                     <p>Web Designer</p>
                                     <div className="team-social">
-                                        <a className="fb" href="#"><i className="fa fa-facebook"></i></a>
-                                        <a className="twt" href="#"><i className="fa fa-twitter"></i></a>
-                                        <a className="gplus" href="#"><i className="fa fa-google-plus"></i></a>
-                                        <a className="linkdin" href="#"><i className="fa fa-linkedin"></i></a>
-                                        <a className="dribble" href="#"><i className="fa fa-dribbble"></i></a>
+                                        <button className="fb" href="#"><i className="fa fa-facebook"></i></button>
+                                        <button className="twt" href="#"><i className="fa fa-twitter"></i></button>
+                                        <button className="gplus" href="#"><i className="fa fa-google-plus"></i></button>
+                                        <button className="linkdin" href="#"><i className="fa fa-linkedin"></i></button>
+                                        <button className="dribble" href="#"><i className="fa fa-dribbble"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -46,11 +46,11 @@ export class team extends Component {
                                     <h3>Robert Aleska</h3>
                                     <p>Web Designer</p>
                                     <div className="team-social">
-                                        <a className="fb" href="#"><i className="fa fa-facebook"></i></a>
-                                        <a className="twt" href="#"><i className="fa fa-twitter"></i></a>
-                                        <a className="gplus" href="#"><i className="fa fa-google-plus"></i></a>
-                                        <a className="linkdin" href="#"><i className="fa fa-linkedin"></i></a>
-                                        <a className="dribble" href="#"><i className="fa fa-dribbble"></i></a>
+                                        <button className="fb" href="#"><i className="fa fa-facebook"></i></button>
+                                        <button className="twt" href="#"><i className="fa fa-twitter"></i></button>
+                                        <button className="gplus" href="#"><i className="fa fa-google-plus"></i></button>
+                                        <button className="linkdin" href="#"><i className="fa fa-linkedin"></i></button>
+                                        <button className="dribble" href="#"><i className="fa fa-dribbble"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -67,11 +67,11 @@ export class team extends Component {
                                     <h3>Taline Voski</h3>
                                     <p>Web Designer</p>
                                     <div className="team-social">
-                                        <a className="fb" href="#"><i className="fa fa-facebook"></i></a>
-                                        <a className="twt" href="#"><i className="fa fa-twitter"></i></a>
-                                        <a className="gplus" href="#"><i className="fa fa-google-plus"></i></a>
-                                        <a className="linkdin" href="#"><i className="fa fa-linkedin"></i></a>
-                                        <a className="dribble" href="#"><i className="fa fa-dribbble"></i></a>
+                                        <button className="fb" href="#"><i className="fa fa-facebook"></i></button>
+                                        <button className="twt" href="#"><i className="fa fa-twitter"></i></button>
+                                        <button className="gplus" href="#"><i className="fa fa-google-plus"></i></button>
+                                        <button className="linkdin" href="#"><i className="fa fa-linkedin"></i></button>
+                                        <button className="dribble" href="#"><i className="fa fa-dribbble"></i></button>
                                     </div>
                                 </div>
                             </div>
@@ -88,11 +88,11 @@ export class team extends Component {
                                     <h3>Alban Spencer</h3>
                                     <p>Web Designer</p>
                                     <div className="team-social">
-                                        <a className="fb" href="#"><i className="fa fa-facebook"></i></a>
-                                        <a className="twt" href="#"><i className="fa fa-twitter"></i></a>
-                                        <a className="gplus" href="#"><i className="fa fa-google-plus"></i></a>
-                                        <a className="linkdin" href="#"><i className="fa fa-linkedin"></i></a>
-                                        <a className="dribble" href="#"><i className="fa fa-dribbble"></i></a>
+                                        <button className="fb" href="#"><i className="fa fa-facebook"></i></button>
+                                        <button className="twt" href="#"><i className="fa fa-twitter"></i></button>
+                                        <button className="gplus" href="#"><i className="fa fa-google-plus"></i></button>
+                                        <button className="linkdin" href="#"><i className="fa fa-linkedin"></i></button>
+                                        <button className="dribble" href="#"><i className="fa fa-dribbble"></i></button>
                                     </div>
                                 </div>
                             </div>

@@ -13,19 +13,19 @@ export class maincontainer extends Component {
 
                                 <div className="post-image-wrapper">
                                     <img src="./images/blog/blog1.jpg" className="img-fluid" alt="" />
-                                    <span className="blog-date"><a href="#"> May 03, 2015</a></span>
+                                    <span className="blog-date"><button href="#"> May 03, 2015</button></span>
                                 </div>
                                 <div className="post-header clearfix">
                                     <h2 className="post-title">
-                                        <a href="blog-item.html">Over the year we have lots of experience</a>
+                                        <button href="blog-item.html">Over the year we have lots of experience</button>
                                     </h2>
                                     <div className="post-meta">
-                                        <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                        <span className="post-meta-cats">in <a href="#"> News</a></span>
+                                        <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                        <span className="post-meta-cats">in <button href="#"> News</button></span>
                                         <div className="float-right">
 
-                                            <span className="post-meta-comments"><a href="#"><i className="fa fa-comment-o"></i> 11</a></span>
-                                            <span className="post-meta-hits"><a href="#"><i className="fa fa-heart-o"></i> 62</a></span>
+                                            <span className="post-meta-comments"><button href="#"><i className="fa fa-comment-o"></i> 11</button></span>
+                                            <span className="post-meta-hits"><button href="#"><i className="fa fa-heart-o"></i> 62</button></span>
                                         </div>
 
                                     </div>
@@ -37,8 +37,8 @@ export class maincontainer extends Component {
                                         the middle dolor sit amet.</p>
                                 </div>
                                 <div className="post-footer">
-                                    <a href="blog-item.html" className="btn btn-primary">Continue Reading <i
-                                            className="fa fa-angle-double-right">&nbsp;</i></a>
+                                    <button href="blog-item.html" className="btn btn-primary">Continue Reading <i
+                                            className="fa fa-angle-double-right">&nbsp;</i></button>
                                 </div>
                             </div>
 
@@ -50,19 +50,19 @@ export class maincontainer extends Component {
                                         <iframe src="//player.vimeo.com/video/72266001?title=0&amp;byline=0&amp;portrait=0&amp;color=8aba56"
                                             width="500" height="281" allowFullScreen></iframe>
                                     </div>
-                                    <span className="blog-date"><a href="#"> May 19, 2015</a></span>
+                                    <span className="blog-date"><button href="#"> May 19, 2015</button></span>
                                 </div>
                                 <div className="post-header clearfix">
                                     <h2 className="post-title">
-                                        <a href="blog-item.html">Dolorem animi nisi autem blanditiis</a>
+                                        <button href="blog-item.html">Dolorem animi nisi autem blanditiis</button>
                                     </h2>
                                     <div className="post-meta">
-                                        <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                        <span className="post-meta-cats">in <a href="#"> News</a></span>
+                                        <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                        <span className="post-meta-cats">in <button href="#"> News</button></span>
                                         <div className="float-right">
 
-                                            <span className="post-meta-comments"><a href="#"><i className="fa fa-comment-o"></i> 11</a></span>
-                                            <span className="post-meta-hits"><a href="#"><i className="fa fa-heart-o"></i> 62</a></span>
+                                            <span className="post-meta-comments"><button href="#"><i className="fa fa-comment-o"></i> 11</button></span>
+                                            <span className="post-meta-hits"><button href="#"><i className="fa fa-heart-o"></i> 62</button></span>
                                         </div>
 
                                     </div>
@@ -74,8 +74,8 @@ export class maincontainer extends Component {
                                         the middle dolor sit amet.</p>
                                 </div>
                                 <div className="post-footer">
-                                    <a href="blog-item.html" className="btn btn-primary">Continue Reading <i
-                                            className="fa fa-angle-double-right">&nbsp;</i></a>
+                                    <button href="blog-item.html" className="btn btn-primary">Continue Reading <i
+                                            className="fa fa-angle-double-right">&nbsp;</i></button>
                                 </div>
                             </div>
 
@@ -83,19 +83,19 @@ export class maincontainer extends Component {
 
                                 <div className="post-image-wrapper">
                                     <img src="./images/blog/blog2.jpg" className="img-fluid" alt="" />
-                                    <span className="blog-date"><a href="#"> May 23, 2015</a></span>
+                                    <span className="blog-date"><button href="#"> May 23, 2015</button></span>
                                 </div>
                                 <div className="post-header clearfix">
                                     <h2 className="post-title">
-                                        <a href="blog-item.html">Many web sites still in their infancy</a>
+                                        <button href="blog-item.html">Many web sites still in their infancy</button>
                                     </h2>
                                     <div className="post-meta">
-                                        <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                        <span className="post-meta-cats">in <a href="#"> News</a></span>
+                                        <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                        <span className="post-meta-cats">in <button href="#"> News</button></span>
                                         <div className="float-right">
 
-                                            <span className="post-meta-comments"><a href="#"><i className="fa fa-comment-o"></i> 11</a></span>
-                                            <span className="post-meta-hits"><a href="#"><i className="fa fa-heart-o"></i> 62</a></span>
+                                            <span className="post-meta-comments"><button href="#"><i className="fa fa-comment-o"></i> 11</button></span>
+                                            <span className="post-meta-hits"><button href="#"><i className="fa fa-heart-o"></i> 62</button></span>
                                         </div>
 
                                     </div>
@@ -107,27 +107,27 @@ export class maincontainer extends Component {
                                         the middle dolor sit amet.</p>
                                 </div>
                                 <div className="post-footer">
-                                    <a href="blog-item.html" className="btn btn-primary">Continue Reading <i
-                                            className="fa fa-angle-double-right">&nbsp;</i></a>
+                                    <button href="blog-item.html" className="btn btn-primary">Continue Reading <i
+                                            className="fa fa-angle-double-right">&nbsp;</i></button>
                                 </div>
                             </div>
 
                             <nav>
                                 <ul className="pagination">
                                     <li className="page-item">
-                                        <a className="page-link" href="#" aria-label="Previous">
+                                        <button className="page-link" href="#" aria-label="Previous">
                                             <i className="fa fa-angle-left"></i>
-                                        </a>
+                                        </button>
                                     </li>
-                                    <li className="page-item active"><a className="page-link" href="#">1</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">2</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">4</a></li>
-                                    <li className="page-item"><a className="page-link" href="#">5</a></li>
+                                    <li className="page-item active"><button className="page-link" href="#">1</button></li>
+                                    <li className="page-item"><button className="page-link" href="#">2</button></li>
+                                    <li className="page-item"><button className="page-link" href="#">3</button></li>
+                                    <li className="page-item"><button className="page-link" href="#">4</button></li>
+                                    <li className="page-item"><button className="page-link" href="#">5</button></li>
                                     <li className="page-item">
-                                        <a className="page-link" href="#" aria-label="Next">
+                                        <button className="page-link" href="#" aria-label="Next">
                                             <i className="fa fa-angle-right"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                 </ul>
                             </nav>
@@ -146,25 +146,25 @@ export class maincontainer extends Component {
 
                                 <div className="widget widget-tab">
                                     <ul className="nav nav-tabs">
-                                        <li className="nav-item"><a className="nav-link active" href="#popular-tab" data-toggle="tab">popular</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="#recent-tab" data-toggle="tab">recent</a></li>
-                                        <li className="nav-item"><a className="nav-link" href="#comments-tab" data-toggle="tab">comments</a></li>
+                                        <li className="nav-item"><button className="nav-link active" href="#popular-tab" data-toggle="tab">popular</button></li>
+                                        <li className="nav-item"><button className="nav-link" href="#recent-tab" data-toggle="tab">recent</button></li>
+                                        <li className="nav-item"><button className="nav-link" href="#comments-tab" data-toggle="tab">comments</button></li>
                                     </ul>
                                     <div className="tab-content">
                                         <div className="tab-pane fade show active" id="popular-tab">
                                             <ul className="posts-list list-unstyled clearfix">
                                                 <li>
                                                     <div className="posts-thumb float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/blog1.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
-                                                        <h4 className="entry-title"><a href="#">Bulgaria claims to find Europe's 'oldest town'</a>
+                                                        <h4 className="entry-title"><button href="#">Bulgaria claims to find Europe's 'oldest town'</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> November 14</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> November 14</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -172,17 +172,17 @@ export class maincontainer extends Component {
                                                 </li>
                                                 <li>
                                                     <div className="posts-thumb float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/blog2.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
                                                         <h4 className="entry-title">
-                                                            <a href="#">Lorem ipsum dolor sit amet, consectetur claims</a>
+                                                            <button href="#">Lorem ipsum dolor sit amet, consectetur claims</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> October 19</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> October 19</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -190,17 +190,17 @@ export class maincontainer extends Component {
                                                 </li>
                                                 <li>
                                                     <div className="posts-thumb float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/blog3.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
                                                         <h4 className="entry-title">
-                                                            <a href="#">Should You Ever Skip Giving A Tip?</a>
+                                                            <button href="#">Should You Ever Skip Giving A Tip?</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> November 21</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> November 21</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -213,16 +213,16 @@ export class maincontainer extends Component {
                                             <ul className="posts-list list-unstyled clearfix">
                                                 <li>
                                                     <div className="posts-thumb float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/blog3.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
-                                                        <h4 className="entry-title"><a href="#">Bulgaria claims to find Europe's 'oldest town'</a>
+                                                        <h4 className="entry-title"><button href="#">Bulgaria claims to find Europe's 'oldest town'</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> November 21</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> November 21</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -230,16 +230,16 @@ export class maincontainer extends Component {
                                                 </li>
                                                 <li>
                                                     <div className="posts-thumb float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/blog1.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
-                                                        <h4 className="entry-title"><a href="#">Bulgaria claims to find Europe's 'oldest town'</a>
+                                                        <h4 className="entry-title"><button href="#">Bulgaria claims to find Europe's 'oldest town'</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Admin</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> October 19</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Admin</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> October 19</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -252,16 +252,16 @@ export class maincontainer extends Component {
                                             <ul className="posts-list list-unstyled clearfix">
                                                 <li>
                                                     <div className="posts-avator float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/avator1.png" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
-                                                        <h4 className="entry-title"><a href="#">If you are going to use a passage of Lorem Ipsum</a>
+                                                        <h4 className="entry-title"><button href="#">If you are going to use a passage of Lorem Ipsum</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> John</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> November 21</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> John</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> November 21</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -269,16 +269,16 @@ export class maincontainer extends Component {
                                                 </li>
                                                 <li>
                                                     <div className="posts-avator float-left">
-                                                        <a href="#">
+                                                        <button href="#">
                                                             <img alt="img" src="./images/blog/avator2.jpg" />
-                                                        </a>
+                                                        </button>
                                                     </div>
                                                     <div className="post-content">
-                                                        <h4 className="entry-title"><a href="#">you need to be sure there isn’t anything embarra</a>
+                                                        <h4 className="entry-title"><button href="#">you need to be sure there isn’t anything embarra</button>
                                                         </h4>
                                                         <p className="post-meta">
-                                                            <span className="post-meta-author">Posted by <a href="#"> Tina</a></span>
-                                                            <span className="post-meta-date"><a href="#"> <i className="fa fa-clock-o"></i> October 18</a>
+                                                            <span className="post-meta-author">Posted by <button href="#"> Tina</button></span>
+                                                            <span className="post-meta-date"><button href="#"> <i className="fa fa-clock-o"></i> October 18</button>
                                                             </span>
                                                         </p>
                                                     </div>
@@ -292,25 +292,25 @@ export class maincontainer extends Component {
                                 <div className="widget widget-categories">
                                     <h3 className="widget-title">Blog Categories</h3>
                                     <ul className="category-list clearfix">
-                                        <li><a href="#">Objects</a><span className="posts-count"> (19)</span></li>
-                                        <li><a href="#">Technology</a><span className="posts-count"> (09)</span></li>
-                                        <li><a href="#">Photography</a><span className="posts-count"> (13)</span></li>
-                                        <li><a href="#">Fashion</a><span className="posts-count"> (10)</span></li>
-                                        <li><a href="#">Realtough</a><span className="posts-count"> (14)</span></li>
-                                        <li><a href="#">Architecture</a><span className="posts-count"> (11)</span></li>
+                                        <li><button href="#">Objects</button><span className="posts-count"> (19)</span></li>
+                                        <li><button href="#">Technology</button><span className="posts-count"> (09)</span></li>
+                                        <li><button href="#">Photography</button><span className="posts-count"> (13)</span></li>
+                                        <li><button href="#">Fashion</button><span className="posts-count"> (10)</span></li>
+                                        <li><button href="#">Realtough</button><span className="posts-count"> (14)</span></li>
+                                        <li><button href="#">Architecture</button><span className="posts-count"> (11)</span></li>
                                     </ul>
                                 </div>
 
                                 <div className="widget widget-tags">
                                     <h3 className="widget-title">Popular Tags</h3>
                                     <ul className="list-unstyled clearfix">
-                                        <li><a href="#">iMac</a></li>
-                                        <li><a href="#">Black and Green</a></li>
-                                        <li><a href="#">Crative</a></li>
-                                        <li><a href="#">Momentum</a></li>
-                                        <li><a href="#">Business</a></li>
-                                        <li><a href="#">Cellular</a></li>
-                                        <li><a href="#">Niche</a></li>
+                                        <li><button href="#">iMac</button></li>
+                                        <li><button href="#">Black and Green</button></li>
+                                        <li><button href="#">Crative</button></li>
+                                        <li><button href="#">Momentum</button></li>
+                                        <li><button href="#">Business</button></li>
+                                        <li><button href="#">Cellular</button></li>
+                                        <li><button href="#">Niche</button></li>
                                     </ul>
                                 </div>
 

@@ -14,8 +14,6 @@ export class styleoptions extends Component {
                 <button id="preset4" className="btn btn-sm btn-primary"></button>
                 <button id="preset5" className="btn btn-sm btn-primary"></button>
                 <button id="preset6" className="btn btn-sm btn-primary"></button>
-                <br/><br/>
-                <a className="btn btn-sm btn-primary close-styler float-right">Close X</a>
             </div>
         )
     }

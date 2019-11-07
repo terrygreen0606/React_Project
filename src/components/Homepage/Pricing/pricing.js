@@ -24,7 +24,7 @@ export class pricing extends Component {
                                     <li>SSL Shopping Cart</li>
                                     <li>24/7 Live Support</li>
                                 </ul>
-                                <a className="btn btn-primary" href="#.">Sign Up</a>
+                                <button className="btn btn-primary" href="#.">Sign Up</button>
                             </div>
                         </div>
 
@@ -39,7 +39,7 @@ export class pricing extends Component {
                                     <li>SSL Shopping Cart</li>
                                     <li>24/7 Live Support</li>
                                 </ul>
-                                <a className="btn btn-primary" href="#.">Sign Up</a>
+                                <button className="btn btn-primary" href="#.">Sign Up</button>
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@ export class pricing extends Component {
                                     <li>SSL Shopping Cart</li>
                                     <li>24/7 Live Support</li>
                                 </ul>
-                                <a className="btn btn-primary" href="#.">Sign Up</a>
+                                <button className="btn btn-primary" href="#.">Sign Up</button>
                             </div>
                         </div>
 
@@ -69,7 +69,7 @@ export class pricing extends Component {
                                     <li>SSL Shopping Cart</li>
                                     <li>24/7 Live Support</li>
                                 </ul>
-                                <a className="btn btn-primary" href="#.">Sign Up</a>
+                                <button className="btn btn-primary" href="#.">Sign Up</button>
                             </div>
                         </div>
                     </div>

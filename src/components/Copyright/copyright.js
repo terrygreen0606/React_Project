@@ -9,27 +9,27 @@ export class copyright extends Component {
                         <div className="col-md-12 text-center">
                             <ul className="footer-social unstyled">
                                 <li>
-                                    <a title="Twitter" href="#">
+                                    <button title="Twitter" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-twitter"></i></span>
-                                    </a>
-                                    <a title="Facebook" href="#">
+                                    </button>
+                                    <button title="Facebook" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-facebook"></i></span>
-                                    </a>
-                                    <a title="Google+" href="#">
+                                    </button>
+                                    <button title="Google+" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-google-plus"></i></span>
-                                    </a>
-                                    <a title="linkedin" href="#">
+                                    </button>
+                                    <button title="linkedin" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-linkedin"></i></span>
-                                    </a>
-                                    <a title="Pinterest" href="#">
+                                    </button>
+                                    <button title="Pinterest" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-pinterest"></i></span>
-                                    </a>
-                                    <a title="Skype" href="#">
+                                    </button>
+                                    <button title="Skype" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-skype"></i></span>
-                                    </a>
-                                    <a title="Dribble" href="#">
+                                    </button>
+                                    <button title="Dribble" href="#">
                                     <span className="icon-pentagon wow bounceIn"><i className="fa fa-dribbble"></i></span>
-                                    </a>
+                                    </button>
                                 </li>
                             </ul>
                         </div>
@@ -38,8 +38,8 @@ export class copyright extends Component {
                     <div className="row">
                         <div className="col-md-12 text-center">
                             <div className="copyright-info">
-                            &copy; Copyright 2019 Themefisher. <span>Designed by <a
-                                href="https://themefisher.com">Themefisher.com</a></span>
+                            &copy; Copyright 2019 Themefisher. <span>Designed by <button
+                                href="https://themefisher.com">Themefisher.com</button></span>
                             </div>
                         </div>
                         </div>
