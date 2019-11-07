@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
+import StyleOptions from './components/StyleOptions/styleoptions'
+import Header from './components/Header/header'
+// import Bannerarea from './components/BannerArea/bannerarea'
+import Homepage from './components/Homepage/homepage'
+import Blogs from './components/Blogs/blogs'
+import Footer from './components/Footer/footer'
+import Copyright from './components/Copyright/copyright'
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <Router>
+      <div className="App">
+        <StyleOptions />
+        <div className='body-inner'>
+          <Header />
+          {/* { banner 
+            ? (
+              <div>
+                <Bannerarea />
+                <Route path='/blogs' exact><Blogs /></Route>
+              </div>
+            )
+            : (<Route path='/' exact><Homepage /></Route>) } */}
+          <Route path='/' exact><Homepage /></Route>
+          <Route path='/blogs' exact><Blogs /></Route>
+          <Footer />
+          <Copyright />
+        </div>
+      </div>
+    </Router>
   );
 }
 
