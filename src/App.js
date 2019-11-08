@@ -9,6 +9,7 @@ import Contact from './components/Contact/contact'
 import Footer from './components/Footer/footer'
 import Copyright from './components/Copyright/copyright'
 import './App.css';
+import Elements from './components/Elements/elements';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/' exact><Homepage /></Route>
           <Route path='/blogs' exact><Blogs /></Route>
           <Route path='/contact' exact><Contact /></Route>
+          <Route path='/elements' exact><Elements /></Route>
           <Footer />
           <Copyright />
         </div>

@@ -58,6 +58,12 @@ export class home extends Component {
                             </div>
                         </li>
                     </ul>
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb justify-content-center bread-extra">
+                            <li className="breadcrumb-item"><button>Home</button></li>
+                            <li className="breadcrumb-item" aria-current="page">Elements</li>
+                        </ol>
+                    </nav>
 
                     <div className="cd-slider-nav">
                         <nav>

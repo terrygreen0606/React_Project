@@ -36,16 +36,13 @@ export class header extends Component {
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <button className="nav-link">Elements</button>
+                                    <Link to='/elements'><button className="nav-link">Elements</button></Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/blogs'><button className="nav-link">Blogs</button></Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link to='/contact'><button className="nav-link">Contact</button></Link>
-                                </li>
-                                <li className="nav-item">
-                                    <button className="nav-link">About Us</button>
                                 </li>
                                 <li className="nav-item">
                                     <button className="nav-link">Log In</button>

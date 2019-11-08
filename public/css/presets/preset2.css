@@ -1,11 +1,11 @@
 /* Global styles
 ================================================== */
 
-a{
+button{
 	color: #81c83c;
 }
 
-a.read-more:hover{
+button.read-more:hover{
 	color: #327cbc;
 }
 
@@ -44,7 +44,7 @@ blockquote {
 	color: #81c83c;
 }
 
-h2.entry-title a:hover{
+h2.entry-title button:hover{
 	color: #81c83c;
 }
 
@@ -87,8 +87,8 @@ h2.entry-title a:hover{
 
 /* Flex Slider */
 
-.portfolio-slider .flex-direction-nav a:hover,
-.second-slider .flex-direction-nav a:hover {
+.portfolio-slider .flex-direction-nav button:hover,
+.second-slider .flex-direction-nav button:hover {
 	background: #81c83c;
 }
 
@@ -111,7 +111,7 @@ h2.entry-title a:hover{
 	border-top: 5px solid #81c83c;
 }
 
-.header-solid ul.navbar-nav > li:hover > a, .header-solid ul.navbar-nav > li.active > a {
+.header-solid ul.navbar-nav > li:hover > button, .header-solid ul.navbar-nav > li.active > button {
   color: #81c83c;
 }
 
@@ -170,17 +170,17 @@ h2.entry-title a:hover{
 /* Portfolio
 ================================================== */
 
-.isotope-nav ul li a{
+.isotope-nav ul li button{
 	border: 1px solid #81c83c;
 }
 
-.isotope-nav ul a.active, 
-.isotope-nav ul a:hover{
+.isotope-nav ul button.active, 
+.isotope-nav ul button:hover{
 	background: #81c83c;
 }
 
-.isotope-nav ul a.active:after, 
-.isotope-nav ul a:hover:after{
+.isotope-nav ul button.active:after, 
+.isotope-nav ul button:hover:after{
 	border-color: #81c83c rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
@@ -241,7 +241,7 @@ h2.entry-title a:hover{
 /* Recent Post
 ================================================== */
 
-.post-img-overlay a:hover{
+.post-img-overlay button:hover{
 	background: #81c83c;
 }
 
@@ -249,11 +249,11 @@ h2.entry-title a:hover{
 /* Footer
 ================================================== */
 
-.copyright-info a:hover{
+.copyright-info button:hover{
 	color: #81c83c;
 }
 
-.footer2 .copyright-info a{
+.footer2 .copyright-info button{
 	color: #81c83c;
 }
 
@@ -265,7 +265,7 @@ h2.entry-title a:hover{
 	color: #81c83c;
 }
 
-.footer-widget .latest-post-content h4 a:hover{
+.footer-widget .latest-post-content h4 button:hover{
 	color: #81c83c;
 }
 
@@ -276,15 +276,15 @@ h2.entry-title a:hover{
 /* Blog Item page
 ================================================== */
 
-.post-meta a:hover{
+.post-meta button:hover{
 	color: #81c83c;
 }
 
-.author-url span a:hover{
+.author-url span button:hover{
 	color: #81c83c;
 }
 
-.comments-counter a:hover{
+.comments-counter button:hover{
 	color: #81c83c;
 }
 
@@ -294,23 +294,23 @@ h2.entry-title a:hover{
 
 /*-- Blog sidebar --*/
 
-.widget-tab .nav-tabs>li.active>a{
+.widget-tab .nav-tabs>li.active>button{
 	background: #81c83c;
 }
 
-.widget-tab h4.entry-title a:hover{
+.widget-tab h4.entry-title button:hover{
 	color: #81c83c;
 }
 
-.widget-tags ul > li a:hover{
+.widget-tags ul > li button:hover{
 	background: #81c83c;
 }
 
 /* Landing page
 ================================================== */
 
-.landing-header.header-bgnone ul.navbar-nav > li:hover > a, 
-.landing-header.header-bgnone ul.navbar-nav > li.active > a {
+.landing-header.header-bgnone ul.navbar-nav > li:hover > button, 
+.landing-header.header-bgnone ul.navbar-nav > li.active > button {
 	color: #81c83c;
 }
 
@@ -352,19 +352,19 @@ h2.entry-title a:hover{
 	border-bottom: 2px solid #81c83c;
 }
 
-.post-title a:hover{
+.post-title button:hover{
 	color: #81c83c;
 }
 
-.portfolio-static-desc a:hover{
+.portfolio-static-desc button:hover{
 	color: #81c83c;
 }
 
-.client-carousel .item a:hover{
+.client-carousel .item button:hover{
 	border: 1px solid #81c83c;
 }
 
-.footer ul li a:hover{
+.footer ul li button:hover{
 	color: #81c83c;
 }
 
@@ -376,11 +376,11 @@ h2.entry-title a:hover{
 	background: #81c83c;
 }
 
-.widget-categories ul.category-list  li a:hover{
+.widget-categories ul.category-list  li button:hover{
 	color: #81c83c;
 }
 
-.about-message ul li a:hover{
+.about-message ul li button:hover{
 	color: #81c83c;
 }
 

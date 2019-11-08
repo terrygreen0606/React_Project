@@ -126,6 +126,10 @@ h5, .h5 {
   background: none;
 }
 
+#apply-hover:hover {
+  color: #323232;
+}
+
 html {
   overflow-x: hidden !important;
   width: 100%;
@@ -386,6 +390,11 @@ blockquote {
   text-transform: capitalize;
   display: block;
   color: #6A6A6A;
+}
+
+.bread-extra {
+  background: #fff;
+  font-size: 25px;
 }
 
 /* Title style 2 */
