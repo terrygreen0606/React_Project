@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class service extends Component {
+export class Service extends Component {
     render() {
         return (
             <section id="service" className="service angle">
@@ -52,4 +52,4 @@ export class service extends Component {
     }
 }
 
-export default service
+export default Service

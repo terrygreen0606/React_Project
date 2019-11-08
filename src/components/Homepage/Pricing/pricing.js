@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class pricing extends Component {
+export class Pricing extends Component {
     render() {
         return (
             <section id="pricing" className="pricing">
@@ -81,4 +81,4 @@ export class pricing extends Component {
     }
 }
 
-export default pricing
+export default Pricing

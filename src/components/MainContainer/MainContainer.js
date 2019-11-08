@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
-import Blogs from '../Blogs/Blogs'
-import Contact from '../Contact/Contact'
-import Elements from '../Elements/Elements';
+import Blogs from '../Blogs/blogs'
+import Contact from '../Contact/contact'
+import Elements from '../Elements/elements';
 
 export class MainContainer extends Component {
     render() {

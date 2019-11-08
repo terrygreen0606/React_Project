@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class home extends Component {
+export class Home extends Component {
     render() {
         return (
             <section id="home" className="p-0">
@@ -77,4 +77,4 @@ export class home extends Component {
     }
 }
 
-export default home
+export default Home

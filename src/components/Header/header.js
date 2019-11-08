@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link, Redirect } from 'react-router-dom'
 
 
-export class header extends Component {
+export class Header extends Component {
 
     render() {
         
@@ -56,4 +56,4 @@ export class header extends Component {
     }
 }
 
-export default header
+export default Header

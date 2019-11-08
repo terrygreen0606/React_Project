@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class feature extends Component {
+export class Feature extends Component {
     render() {
         return (
             <section id="feature" className="feature">
@@ -94,4 +94,4 @@ export class feature extends Component {
     }
 }
 
-export default feature
+export default Feature

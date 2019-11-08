@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class styleoptions extends Component {
+export class Styleoptions extends Component {
     render() {
         return (
             <div className="style-switch-wrapper">
@@ -19,4 +19,4 @@ export class styleoptions extends Component {
     }
 }
 
-export default styleoptions
+export default Styleoptions

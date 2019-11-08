@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class clients extends Component {
+export class Clients extends Component {
     render() {
         return (
             <section id="clients" className="clients">
@@ -56,4 +56,4 @@ export class clients extends Component {
     }
 }
 
-export default clients
+export default Clients

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class imageblock extends Component {
+export class Imageblock extends Component {
     render() {
         return (
             <section id="image-block" className="image-block p-0">
@@ -51,4 +51,4 @@ export class imageblock extends Component {
     }
 }
 
-export default imageblock
+export default Imageblock

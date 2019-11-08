@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class tscounter extends Component {
+export class Tscounter extends Component {
     render() {
         return (
             <section className="ts_counter p-0">
@@ -47,4 +47,4 @@ export class tscounter extends Component {
     }
 }
 
-export default tscounter
+export default Tscounter

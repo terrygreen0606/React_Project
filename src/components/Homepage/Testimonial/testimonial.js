@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class testimonial extends Component {
+export class Testimonial extends Component {
     render() {
         return (
             <section className="testimonial parallax parallax2">
@@ -58,4 +58,4 @@ export class testimonial extends Component {
     }
 }
 
-export default testimonial
+export default Testimonial

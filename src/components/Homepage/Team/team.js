@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class team extends Component {
+export class Team extends Component {
     render() {
         return (
             <section id="team" className="team">
@@ -107,4 +107,4 @@ export class team extends Component {
     }
 }
 
-export default team
+export default Team

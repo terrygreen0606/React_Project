@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class copyright extends Component {
+export class Copyright extends Component {
     render() {
         return (
             <section id="copyright" className="copyright angle">
@@ -54,4 +54,4 @@ export class copyright extends Component {
     }
 }
 
-export default copyright
+export default Copyright

@@ -10,7 +10,7 @@ import Pricing from './Pricing/pricing'
 import Testimonial from './Testimonial/testimonial'
 import Clients from './Clients/clients'
 
-export class homepage extends Component {
+export class Homepage extends Component {
     render() {
         return (
             <div>
@@ -29,4 +29,4 @@ export class homepage extends Component {
     }
 }
 
-export default homepage
+export default Homepage
