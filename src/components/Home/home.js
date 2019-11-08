@@ -13,8 +13,8 @@ export class home extends Component {
                             <div className="cd-full-width">
                                 <h2>Need To Invent The Future!</h2>
                                 <h3>We are Making Difference To Great Things Possible</h3>
-                                <button href="#0" className="btn btn-primary white cd-btn">Start Now</button>
-                                <button href="#0" className="btn btn-primary solid cd-btn">Learn More</button>
+                                <button className="btn btn-primary white cd-btn">Start Now</button>
+                                <button className="btn btn-primary solid cd-btn">Learn More</button>
                             </div>
                         </li>
                         <li>
@@ -24,7 +24,7 @@ export class home extends Component {
                             <div className="cd-half-width">
                                 <h2>How Big Can You Dream?</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-                                <button href="#0" className="cd-btn btn btn-primary solid">Take a Tour</button>
+                                <button className="cd-btn btn btn-primary solid">Take a Tour</button>
                             </div>
 
                             <div className="cd-half-width cd-img-container">
@@ -41,8 +41,8 @@ export class home extends Component {
                             <div className="cd-half-width">
                                 <h2>Your Challenge is Our Progress</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-                                <button href="#0" className="cd-btn btn btn-primary white">Start</button>
-                                <button href="#0" className="cd-btn btn secondary btn-primary solid">Learn More</button>
+                                <button className="cd-btn btn btn-primary white">Start</button>
+                                <button className="cd-btn btn secondary btn-primary solid">Learn More</button>
                             </div>
                         </li>
                         <li className="cd-bg-video">
@@ -50,7 +50,7 @@ export class home extends Component {
                                 <h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
                                 <h3>We Making Difference To Great Things Possible</h3>
 
-                                <button href="#0" className="cd-btn btn btn-primary solid">Learn more</button>
+                                <button className="cd-btn btn btn-primary solid">Learn more</button>
                             </div>
 
                             <div className="cd-bg-video-wrapper" data-video="videos/video">
@@ -58,13 +58,7 @@ export class home extends Component {
                             </div>
                         </li>
                     </ul>
-                    <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb justify-content-center bread-extra">
-                            <li className="breadcrumb-item"><button>Home</button></li>
-                            <li className="breadcrumb-item" aria-current="page">Elements</li>
-                        </ol>
-                    </nav>
-
+                    
                     <div className="cd-slider-nav">
                         <nav>
                             <span className="cd-marker item-1"></span>

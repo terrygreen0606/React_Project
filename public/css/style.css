@@ -392,11 +392,6 @@ blockquote {
   color: #6A6A6A;
 }
 
-.bread-extra {
-  background: #fff;
-  font-size: 25px;
-}
-
 /* Title style 2 */
 .title2 {
   position: relative;
@@ -2998,9 +2993,7 @@ button.close-styler {
   .cd-slider-nav ul li.video {
     display: none;
   }
-  .cd-slider-nav {
-    bottom: 40px !important;
-  }
+
   /* Portfolio */
   .isotope-nav {
     margin: 0 auto 40px;
@@ -3275,6 +3268,9 @@ button.close-styler {
     height: 250px;
   }
 }
+
+/* Extra Styles */
+
 
 /* Custom, iPhone Retina */
 
