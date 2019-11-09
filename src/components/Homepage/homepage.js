@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+
 import Service from './Service/service'
 import Portfolio from './Portfolio/portfolio'
 import Tscounter from './TsCounter/tscounter'
@@ -10,23 +11,22 @@ import Pricing from './Pricing/pricing'
 import Testimonial from './Testimonial/testimonial'
 import Clients from './Clients/clients'
 
-export class Homepage extends Component {
-    render() {
-        return (
-            <div>
-                <Service />
-                <Portfolio />
-                <Tscounter />
-                <Feature />
-                <Imageblock />
-                <Team />
-                <Parallax />
-                <Pricing />
-                <Testimonial />
-                <Clients />
-            </div>
-        )
-    }
+function Homepage() {
+
+    return (
+        <div className='container'>
+            <Service />
+            <Portfolio />
+            <Tscounter />
+            <Feature />
+            <Imageblock />
+            <Team />
+            <Parallax />
+            <Pricing />
+            <Testimonial />
+            <Clients />
+        </div>
+    )
 }
 
 export default Homepage

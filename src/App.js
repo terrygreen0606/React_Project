@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import StyleOptions from './components/StyleOptions/styleoptions'
 import Header from './components/Header/header'
@@ -9,25 +9,33 @@ import Copyright from './components/Copyright/copyright'
 import './App.css';
 import MainContainer from './components/MainContainer/MainContainer'
 
+export class App extends Component {
 
-function App() {
-  return (
-    
-    <Router>
-      <div className="App">
-        <StyleOptions />
-        <div className='body-inner'>
-        
-          <Header />
-          <Home />
-          <Route path='/' exact><Homepage /></Route>
-          <MainContainer />
-          <Footer />
-          <Copyright />
+  state = {
+    page_name : ''
+  }
+
+  handlePagename = (page_name)=>{
+    this.setState({page_name: page_name})
+  }
+
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <StyleOptions />
+          <div className='body-inner'>            
+            <Header getPagename={this.handlePagename}/>
+            <Home />
+            <Route path='/' exact><Homepage /></Route>
+            <MainContainer page_name={this.state.page_name}/>
+            <Footer />
+            <Copyright />
+          </div>
         </div>
-      </div>
-    </Router>
-  );
+      </Router>
+    )
+  }
 }
 
-export default App;
+export default App
