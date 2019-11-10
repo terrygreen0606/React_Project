@@ -8,6 +8,7 @@ import Footer from './components/Footer/footer'
 import Copyright from './components/Copyright/copyright'
 import MainContainer from './components/MainContainer/MainContainer'
 import SignModal from './components/SignModal/signmodal'
+import LogModal from './components/LogModal/logmodal'
 
 import './App.css';
 
@@ -27,6 +28,7 @@ export class App extends Component {
             <Footer />
             <Copyright />
             <SignModal />
+            <LogModal />
           </div>
         </div>
       </Router>

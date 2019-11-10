@@ -7,7 +7,6 @@ function Header() {
 
     const islogged = useSelector( state => state.islogged )
     const dispatch = useDispatch()
-    console.log(islogged)
     
     return (
         <header id="header" className="fixed-top header" role="banner">
@@ -41,7 +40,7 @@ function Header() {
                             <li className="nav-item">
                                 {
                                     islogged ? <Link to='/elements'><button className="nav-link" onClick={()=>dispatch(elements())}>Elements</button></Link>
-                                            : <button className="nav-link" data-toggle="modal" data-target="#signup_modal">Elements</button>
+                                            : <button className="nav-link" data-toggle="modal" data-target="#log_modal">Elements</button>
                                 }
                             </li>
                             <li className="nav-item">
@@ -54,8 +53,11 @@ function Header() {
                                 <Link to='/faq'><button className="nav-link" onClick={()=>dispatch(faq())}>Faq</button></Link>
                             </li>
                             <li className="nav-item">
+                                <button className="nav-link" data-toggle="modal" data-target="#signup_modal">Sign Up</button>
+                            </li>
+                            <li className="nav-item">
                                 { islogged ? <Link to='/'><button className="nav-link" onClick={()=>dispatch(log_status())}>Log Out</button></Link>
-                                            :<button className="nav-link" data-toggle="modal" data-target="#signup_modal" onClick={()=>dispatch(log_status())}>Log In</button> }
+                                            :<button className="nav-link" data-toggle="modal" data-target="#log_modal" onClick={()=>dispatch(log_status())}>Log In</button> }
                             </li>
                         </ul>
                     </div>
