@@ -19,7 +19,7 @@ function MainContainer() {
                 <Route path='/blogs' exact><Blogs /></Route>
                 <Route path='/contact' exact><Contact /></Route>
                 <Route path='/elements' exact><Elements /></Route>
-                <Route path='/faq' exact><Faq /></Route>
+                <Route path='/faq' exact><Faq /></Route>              
             </div>
         </section>
     )

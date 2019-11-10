@@ -6,18 +6,13 @@ import Home from './components/Home/home'
 import Homepage from './components/Homepage/homepage'
 import Footer from './components/Footer/footer'
 import Copyright from './components/Copyright/copyright'
-import './App.css';
 import MainContainer from './components/MainContainer/MainContainer'
+import SignModal from './components/SignModal/signmodal'
+
+import './App.css';
+
 
 export class App extends Component {
-
-  state = {
-    page_name : ''
-  }
-
-  handlePagename = (page_name)=>{
-    this.setState({page_name: page_name})
-  }
 
   render() {
     return (
@@ -25,12 +20,13 @@ export class App extends Component {
         <div className="App">
           <StyleOptions />
           <div className='body-inner'>            
-            <Header getPagename={this.handlePagename}/>
+            <Header />
             <Home />
             <Route path='/' exact><Homepage /></Route>
-            <MainContainer page_name={this.state.page_name}/>
+            <MainContainer />
             <Footer />
             <Copyright />
+            <SignModal />
           </div>
         </div>
       </Router>

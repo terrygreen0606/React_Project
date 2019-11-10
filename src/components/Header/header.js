@@ -41,7 +41,7 @@ function Header() {
                             <li className="nav-item">
                                 {
                                     islogged ? <Link to='/elements'><button className="nav-link" onClick={()=>dispatch(elements())}>Elements</button></Link>
-                                            : <Link to='/'><button className="nav-link">Elements</button></Link>
+                                            : <button className="nav-link" data-toggle="modal" data-target="#signup_modal">Elements</button>
                                 }
                             </li>
                             <li className="nav-item">
@@ -54,8 +54,8 @@ function Header() {
                                 <Link to='/faq'><button className="nav-link" onClick={()=>dispatch(faq())}>Faq</button></Link>
                             </li>
                             <li className="nav-item">
-                                { islogged ? <button className="nav-link" onClick={()=>dispatch(log_status())}>Log Out</button>
-                                            : <button className="nav-link" onClick={()=>dispatch(log_status())}>Log In</button> }
+                                { islogged ? <Link to='/'><button className="nav-link" onClick={()=>dispatch(log_status())}>Log Out</button></Link>
+                                            :<button className="nav-link" data-toggle="modal" data-target="#signup_modal" onClick={()=>dispatch(log_status())}>Log In</button> }
                             </li>
                         </ul>
                     </div>

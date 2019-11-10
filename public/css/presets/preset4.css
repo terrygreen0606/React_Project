@@ -109,6 +109,7 @@ h2.entry-title button:hover{
 /*-- Header --*/
 .header{
 	border-top: 5px solid #ffc400;
+	padding: 0 !important;
 }
 
 .header-solid ul.navbar-nav > li:hover > button, .header-solid ul.navbar-nav > li.active > button {
