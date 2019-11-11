@@ -15,6 +15,7 @@ function SignModal() {
                     <div className="modal-body">
                         <input type="text" name="first_name" placeholder="First Name" className="form-control form-control-lg" required/><br />
                         <input type="text" name="last_name" placeholder="Last Name" className="form-control form-control-lg" required/><br />
+                        <input type="text" name="username" placeholder="Username" className="form-control form-control-lg" required/><br />
                         <input type="email" name="email" placeholder="Email" className="form-control form-control-lg" required/><br />
                         <input type="password" name="password" placeholder="Password" className="form-control form-control-lg" required/>
                     </div>
